@@ -1,0 +1,35 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "React course",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somoshree/namasteReact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Somoshree Datta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Somoshree/namasteReact/issues"
+  },
+  "homepage": "https://github.com/Somoshree/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":
+  ["last 2 versions"],
+  "proxy": "http://localhost:1234"
+}
